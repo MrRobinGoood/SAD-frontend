@@ -1,0 +1,5 @@
+export const LOAD_FILE_PAGE = "/"
+export const INFO_PAGE = "/info"
+export const TOGGLE_IS_FETCHING = "TOGGLE_IS_FETCHING"
+export const FILE_LOAD = "FILE_LOAD"
+export const RESULT_DOWNLOAD = "RESULT_DOWNLOAD"

@@ -1,0 +1,108 @@
+.dragDrop{
+  width: 100vw;
+  height: 100vh;
+  font-size: 25px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://catherineasquithgallery.com/uploads/posts/2021-03/1614780270_10-p-prozrachnie-foni-dlya-prezentatsii-13.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: montserrat, serif;
+  background-color:  rgb(128,128,128,0.05);
+  position: absolute;
+}
+.dropArea{
+  width: 35vw;
+  height: 20vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border: 2px #348BD8 dashed;
+  border-radius: 20px;
+  color: #bdbdbd;
+  font-family: montserrat, serif;
+  background-color: rgb(250, 250, 250,1);
+}
+.dropAreaAfter{
+  width: 35vw;
+  height: 20vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border: 2px #ff0013 dashed;
+  border-radius: 20px;
+  background-color: #fafafa;
+  color: #bdbdbd;
+  font-family: montserrat, serif;
+}
+.DragInput{
+  display: none;
+  font-family: montserrat, serif;
+}
+.DragButton{
+  cursor: pointer;
+  padding: 0.25rem;
+  border: none;
+  font-family: montserrat, serif;
+  background-color: transparent;
+  width: 35vw;
+  height: 20vh;
+  color: #bdbdbd;
+  font-size: 25px;
+}
+.text{
+  margin: 10px;
+  font-size: 20px;
+  color: black;
+  padding: 15px;
+  font-family: montserrat, serif;
+}
+li {
+  list-style-type: circle;
+}
+.text1{
+  font-size: 20px;
+  color: #676666;
+}
+.dropArea:hover{
+  border: 2px #ff0013 dashed;
+}
+.button {
+  color: #2963f2;
+  font-size: 24px;
+  font-family: 'Raleway',Arial,sans-serif;
+  line-height: 1.55;
+  font-weight: 700;
+  border-radius: 30px;
+  background-color: #ffffff;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  transition: background-color 0.2s ease-in-out,
+  color 0.2s ease-in-out,
+  border-color 0.2s ease-in-out;
+  width: 300px;
+}
+.button:hover {
+  background-color: #2963f2;
+  background-image: none;
+  color: #ffffff;
+}
+
+.container{
+  width: 60vw;
+  height: 50vh;
+  border: 1px rgba(41, 99, 242);
+  box-shadow: -1px -3px 39px 44px rgba(41, 99, 242, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
